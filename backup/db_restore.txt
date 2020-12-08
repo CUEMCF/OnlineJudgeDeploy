@@ -1,0 +1,1 @@
+psql -U onlinejudge -f db_backup_***.sql postgres in docker 
