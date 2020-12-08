@@ -44,7 +44,7 @@ services:
       # - judger_debug=1
   
   oj-backend:
-    image: gloomyghost/cidpoj-backend
+    image: registry.cn-hangzhou.aliyuncs.com/gloomyghost/cidpoj-backend
     container_name: oj-backend
     restart: always
     depends_on:
